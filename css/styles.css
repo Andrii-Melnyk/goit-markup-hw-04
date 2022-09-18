@@ -289,12 +289,12 @@ z .contact-nav .link:focus {
   align-items: center;
 }
 
-.tumba-icon {
+.team-icon {
   fill: var(--bg-icon);
 }
 
-.tumba-icon:hover,
-.tumba-icon:focus {
+.team-icon:hover,
+.team-icon:focus {
   cursor: pointer;
   background-color: var(--accent-color);
   fill: var(--white-color);
@@ -343,6 +343,10 @@ z .contact-nav .link:focus {
   background-color: var(--background-color);
 }
 
+.footer-tumba {
+  display: flex;
+}
+
 .logo-wrap {
   margin-bottom: 20px;
 }
@@ -365,4 +369,35 @@ z .contact-nav .link:focus {
 .footer .phone {
   line-height: 1.5;
   color: rgba(255, 255, 255, 0.6);
+}
+
+.text-icon {
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: var(--white-color);
+}
+
+.footer-list {
+  padding: 0px;
+}
+.footer-icon {
+  fill: var(--white-color);
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.footer-icon:hover,
+.footer-icon:focus {
+  cursor: pointer;
+  background-color: var(--accent-color);
+}
+
+.footer-wrap {
+  margin-right: 70px;
+}
+
+.footer-icon:not(:last-child) {
+  margin-right: 10px;
 }
